@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalpna Restaurant &amp; Cafe, Hazaribagh | Demo Website</title>
+  <meta name="description" content="Demo website for Kalpna Restaurant &amp; Cafe in Hazaribagh, Jharkhand: North Indian menu, café drinks, opening hours, location and WhatsApp contact. Sample content for portfolio use.">
+  <meta name="theme-color" content="#14352A">
+  <meta property="og:title" content="Kalpna Restaurant &amp; Cafe, Hazaribagh | Demo Website">
+  <meta property="og:description" content="North Indian menu, café drinks, hours and location. Portfolio demo with sample content.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="demo-bar" role="note">
+    Demo website with sample content. Not the official site of Kalpna Restaurant &amp; Cafe.
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#top" aria-label="Kalpna Restaurant and Cafe, home">Kalpna <span>Restaurant &amp; Cafe</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#menu">Food menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#visit">Hours &amp; contact</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hero-place">Hazaribagh, Jharkhand</p>
+          <h1>Kalpna Restaurant &amp; Cafe</h1>
+          <p class="hero-lead">Slow-cooked North Indian curries, fresh breads and hot chai, a short walk from St. Columbus College.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#menu">See the menu</a>
+            <a class="btn btn-ghost" data-whatsapp href="https://wa.me/910000000000" target="_blank" rel="noopener">Message on WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="images/hero-thali.svg" width="600" height="600" alt="Illustration of a North Indian thali seen from above, with six small bowls of dal, curries and raita around a mound of rice">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <h2 id="menu-title">Food menu</h2>
+        <p class="note">Sample dishes and prices for demonstration. Prices in rupees (₹).</p>
+
+        <div class="tabs" role="group" aria-label="Filter menu by category">
+          <button type="button" class="tab" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="tab" data-filter="starters" aria-pressed="false">Starters</button>
+          <button type="button" class="tab" data-filter="mains" aria-pressed="false">Main course</button>
+          <button type="button" class="tab" data-filter="rice" aria-pressed="false">Rice &amp; breads</button>
+          <button type="button" class="tab" data-filter="cafe" aria-pressed="false">Café</button>
+          <button type="button" class="tab" data-filter="desserts" aria-pressed="false">Desserts</button>
+        </div>
+
+        <p class="legend">
+          <span class="dot veg" aria-hidden="true"></span> Vegetarian
+          <span class="dot nonveg" aria-hidden="true"></span> Non-vegetarian
+        </p>
+
+        <div class="menu-grid">
+          <section class="menu-cat" data-cat="starters" aria-labelledby="c-starters">
+            <h3 id="c-starters">Starters</h3>
+            <ul class="dishes">
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Paneer Tikka</span><span class="price">₹260</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Chilli Paneer</span><span class="price">₹240</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Hara Bhara Kebab</span><span class="price">₹220</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Crispy Corn</span><span class="price">₹180</span></li>
+              <li><span class="dot nonveg"><span class="sr">Non-vegetarian</span></span><span class="dish">Chicken Tikka</span><span class="price">₹300</span></li>
+            </ul>
+          </section>
+
+          <section class="menu-cat" data-cat="mains" aria-labelledby="c-mains">
+            <h3 id="c-mains">Main course</h3>
+            <ul class="dishes">
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Dal Tadka</span><span class="price">₹180</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Paneer Butter Masala</span><span class="price">₹290</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Kadhai Paneer</span><span class="price">₹280</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Mix Veg</span><span class="price">₹220</span></li>
+              <li><span class="dot nonveg"><span class="sr">Non-vegetarian</span></span><span class="dish">Chicken Curry</span><span class="price">₹320</span></li>
+            </ul>
+          </section>
+
+          <section class="menu-cat" data-cat="rice" aria-labelledby="c-rice">
+            <h3 id="c-rice">Rice &amp; breads</h3>
+            <ul class="dishes">
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Veg Biryani</span><span class="price">₹240</span></li>
+              <li><span class="dot nonveg"><span class="sr">Non-vegetarian</span></span><span class="dish">Chicken Biryani</span><span class="price">₹300</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Jeera Rice</span><span class="price">₹140</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Butter Naan</span><span class="price">₹50</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Tandoori Roti</span><span class="price">₹25</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Laccha Paratha</span><span class="price">₹60</span></li>
+            </ul>
+          </section>
+
+          <section class="menu-cat" data-cat="cafe" aria-labelledby="c-cafe">
+            <h3 id="c-cafe">Café</h3>
+            <ul class="dishes">
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Masala Chai</span><span class="price">₹30</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Hot Coffee</span><span class="price">₹80</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Cold Coffee</span><span class="price">₹120</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Veg Sandwich</span><span class="price">₹110</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">French Fries</span><span class="price">₹120</span></li>
+            </ul>
+          </section>
+
+          <section class="menu-cat" data-cat="desserts" aria-labelledby="c-desserts">
+            <h3 id="c-desserts">Desserts</h3>
+            <ul class="dishes">
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Gulab Jamun (2 pieces)</span><span class="price">₹80</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Rasmalai (2 pieces)</span><span class="price">₹100</span></li>
+              <li><span class="dot veg"><span class="sr">Vegetarian</span></span><span class="dish">Brownie</span><span class="price">₹130</span></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="gallery" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <h2 id="gallery-title">Food gallery</h2>
+        <p class="note">Sample illustrations. A real client site would use the restaurant's own photos here.</p>
+        <ul class="gallery">
+          <li><figure><img src="images/paneer-tikka.svg" width="400" height="400" loading="lazy" alt="Illustration of paneer tikka skewers with peppers and onion"><figcaption>Paneer tikka</figcaption></figure></li>
+          <li><figure><img src="images/biryani.svg" width="400" height="400" loading="lazy" alt="Illustration of a pot of biryani topped with fried onions and mint"><figcaption>Biryani</figcaption></figure></li>
+          <li><figure><img src="images/naan.svg" width="400" height="400" loading="lazy" alt="Illustration of a butter naan with charred spots"><figcaption>Butter naan</figcaption></figure></li>
+          <li><figure><img src="images/dal.svg" width="400" height="400" loading="lazy" alt="Illustration of a bowl of dal tadka seen from above"><figcaption>Dal tadka</figcaption></figure></li>
+          <li><figure><img src="images/chai.svg" width="400" height="400" loading="lazy" alt="Illustration of masala chai in a clay cup with steam"><figcaption>Masala chai</figcaption></figure></li>
+          <li><figure><img src="images/gulab-jamun.svg" width="400" height="400" loading="lazy" alt="Illustration of a bowl of gulab jamun in syrup"><figcaption>Gulab jamun</figcaption></figure></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="visit" aria-labelledby="visit-title">
+      <div class="wrap two-col">
+        <div>
+          <h2 id="visit-title">Opening hours</h2>
+          <p class="note">Sample hours. Confirm with the restaurant before relying on them.</p>
+          <table class="hours">
+            <caption class="sr">Opening hours by day</caption>
+            <thead class="sr"><tr><th scope="col">Day</th><th scope="col">Hours</th></tr></thead>
+            <tbody>
+              <tr data-day="1"><th scope="row">Monday</th><td>10:00 am to 11:00 pm</td></tr>
+              <tr data-day="2"><th scope="row">Tuesday</th><td>10:00 am to 11:00 pm</td></tr>
+              <tr data-day="3"><th scope="row">Wednesday</th><td>10:00 am to 11:00 pm</td></tr>
+              <tr data-day="4"><th scope="row">Thursday</th><td>10:00 am to 11:00 pm</td></tr>
+              <tr data-day="5"><th scope="row">Friday</th><td>10:00 am to 11:00 pm</td></tr>
+              <tr data-day="6"><th scope="row">Saturday</th><td>10:00 am to 11:00 pm</td></tr>
+              <tr data-day="0"><th scope="row">Sunday</th><td>10:00 am to 11:00 pm</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div>
+          <h2>Contact</h2>
+          <p class="note">Contact details below are placeholders for the demo.</p>
+          <ul class="contact">
+            <li><span class="label">Phone</span> <a data-phone-link href="tel:+910000000000"><span data-phone-text>+91 00000 00000 (sample)</span></a></li>
+            <li><span class="label">Email</span> <a data-email-link href="mailto:demo@example.com"><span data-email-text>demo@example.com</span></a></li>
+            <li><span class="label">WhatsApp</span> <a data-whatsapp href="https://wa.me/910000000000" target="_blank" rel="noopener">Start a chat</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="location" aria-labelledby="loc-title">
+      <div class="wrap two-col">
+        <div>
+          <h2 id="loc-title">Find us</h2>
+          <address data-address>
+            Beside Kargil Petrol Pump, near St. Columbus College<br>
+            New Forest Colony, Hazaribagh, Jharkhand 825301
+          </address>
+          <p class="note">Location taken from the public Google Maps listing.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" data-map-link href="https://www.google.com/maps/search/?api=1&amp;query=23.9826946,85.3742898" target="_blank" rel="noopener">Open in Google Maps</a>
+            <a class="btn btn-dark" data-directions-link href="https://www.google.com/maps/dir/?api=1&amp;destination=23.9826946,85.3742898" target="_blank" rel="noopener">Get directions</a>
+          </div>
+        </div>
+        <div class="map-card" aria-hidden="true">
+          <svg viewBox="0 0 400 260" role="presentation" focusable="false">
+            <rect width="400" height="260" fill="#DDE6D8"/>
+            <path d="M-10 190 C80 150 150 210 250 160 S380 120 420 140" stroke="#F7F9F3" stroke-width="22" fill="none"/>
+            <path d="M120 -10 C140 60 100 120 150 190 S190 250 200 280" stroke="#F7F9F3" stroke-width="14" fill="none"/>
+            <path d="M-10 60 L420 90" stroke="#F7F9F3" stroke-width="10" fill="none"/>
+            <circle cx="290" cy="60" r="38" fill="#B9CFB4"/>
+            <circle cx="60" cy="230" r="30" fill="#B9CFB4"/>
+            <path d="M205 70c-17 0-30 13-30 29 0 22 30 55 30 55s30-33 30-55c0-16-13-29-30-29z" fill="#C2352B"/>
+            <circle cx="205" cy="99" r="11" fill="#fff"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Portfolio demo.</strong> Menu, prices, hours, phone and email are sample content. The name and location come from a public Google Maps listing. This site is not affiliated with or endorsed by the restaurant.</p>
+      <p class="small">&copy; <span data-year>2026</span> Demo site</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-whatsapp href="https://wa.me/910000000000" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3C8.800 3 3 8.400 3 15c0 2.400.8 4.600 2.100 6.500L3.600 28.500l7.200-1.700c1.600.8 3.400 1.200 5.200 1.200 7.200 0 13-5.400 13-12S23.200 3 16 3z"/><circle cx="10.500" cy="15" r="1.600" fill="#14352A"/><circle cx="16" cy="15" r="1.600" fill="#14352A"/><circle cx="21.500" cy="15" r="1.600" fill="#14352A"/></svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
